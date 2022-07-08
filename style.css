@@ -32,6 +32,10 @@ body {
     display: flex;
     justify-content: center;
     gap: 75px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .fa-hand-back-fist {
@@ -39,11 +43,15 @@ body {
 }
 
 button {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
 }
 
-i {
-    height: 50px;
-    width: 50px;
+button:hover {
+    background-color: #6474E5;
+}
+
+.fa-solid {
+    text-align: center;
+    color: #9AA4EC;
 }
