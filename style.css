@@ -6,7 +6,13 @@ body {
     font-family: sans-serif;
 }
 
-/* Desktop 1080+ px */
+@media (min-width: 1024px) {
+    .hover:hover {
+        background-color: #6474E5;
+    }
+}
+
+/* Desktop 1024+ px */
 
 .header {
     font-size: 32px;
@@ -48,10 +54,6 @@ button {
     width: 200px;
 }
 
-button:hover {
-    background-color: #6474E5;
-}
-
 .fa-solid {
     text-align: center;
     color: #9AA4EC;
@@ -63,4 +65,102 @@ button:hover {
     color: #212121;
     padding-left: 25%;
     padding-right: 25%;
+}
+
+.scoretext {
+    font-size: 24px;
+    text-align: center;
+    color: #212121;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.playagainbutton {
+    width: 100px;
+    height: 75px;
+    font-size: 20px;
+    color: #212121;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1024px) {
+    .content {
+        padding-top: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .buttons {
+        gap: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    button {
+        height: 150px;
+        width: 150px;
+    }
+
+    .gametext {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .scoretext {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .playagainbutton {
+        width: 90px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        font-size: 28px;
+        height: 40px;
+    }
+
+    .content {
+        font-size: 22px;
+        padding-top: 15px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .buttons {
+        gap: 25px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    button {
+        height: 85px;
+        width: 85px;
+    }
+
+    .gametext {
+        font-size: 22px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .scoretext {
+        font-size: 18px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .playagainbutton {
+        font-size: 16px;
+        width: 70px;
+        height: 45px;
+    }
 }
