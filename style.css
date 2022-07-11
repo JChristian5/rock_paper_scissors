@@ -34,6 +34,7 @@ body {
     gap: 75px;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 25%;
     padding-right: 25%;
 }
@@ -54,4 +55,12 @@ button:hover {
 .fa-solid {
     text-align: center;
     color: #9AA4EC;
+}
+
+.gametext {
+    font-size: 28px;
+    text-align: center;
+    color: #212121;
+    padding-left: 25%;
+    padding-right: 25%;
 }
